@@ -89,6 +89,24 @@ const Navbar = props => {
                                 variant="outline" 
                                 aria-label="Options" 
                             />
+                            
+                            <MenuList>
+                                <NextLink href="/" passHref>
+                                    <MenuItem as={Link}>About</MenuItem>
+                                </NextLink>
+
+                                <NextLink href="/projects" passHref>
+                                    <MenuItem as={Link}>Projects</MenuItem>
+                                </NextLink>
+
+                                <NextLink href="/history" passHref>
+                                    <MenuItem as={Link}>History</MenuItem>
+                                </NextLink>
+
+                                <NextLink href="/photography" passHref>
+                                    <MenuItem as={Link}>Photography</MenuItem>
+                                </NextLink>
+                            </MenuList>
                         </Menu>
                     </Box>
                 </Box>
