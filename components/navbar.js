@@ -14,7 +14,7 @@ import {
     IconButton,
     useColorModeValue
 } from '@chakra-ui/react'
-import { HumburgerIcon } from '@chakra-ui/icons'
+import { HamburgerIcon } from '@chakra-ui/icons'
 
 const LinkItem = ({ href, path, children }) => {
     const active = path === href
@@ -83,7 +83,12 @@ const Navbar = props => {
                 <Box flex={1} align="right">
                     <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
                         <Menu>
-                            <MenuButton as={IconButton} icon={<HamburgerIcon />} variant="outline" aria-label="Options" />
+                            <MenuButton 
+                                as={IconButton} 
+                                icon={<HamburgerIcon />} 
+                                variant="outline" 
+                                aria-label="Options" 
+                            />
                         </Menu>
                     </Box>
                 </Box>
