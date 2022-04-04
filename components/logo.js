@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Text, useColorModeValue } from '@chakra-ui/react'
 import styled from '@emotion/styled'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLaptop, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 const LogoBox = styled.span`
     font-weight: bold;
