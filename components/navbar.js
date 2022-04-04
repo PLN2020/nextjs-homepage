@@ -13,7 +13,7 @@ import {
     MenuButton,
     IconButton,
     useColorModeValue
-} from 'chakra-ui/react'
+} from '@chakra-ui/react'
 import { HumburgerIcon } from '@chakra-ui/icons'
 
 const LinkItem = ({ href, path, children }) => {
@@ -49,3 +49,5 @@ const Navbar = props => {
         </Box>
     )
 }
+
+export default Navbar
