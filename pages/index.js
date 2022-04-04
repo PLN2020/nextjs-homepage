@@ -6,8 +6,9 @@ import {
     Link,
     useColorModeValue 
 } from '@chakra-ui/react'
-import { BioSection, BioYear } from '../components/bio'
 import About from './partials/_about'
+import Education from './partials/_education'
+import OtherSkills from './partials/_other-skills'
 
 const Page = () => {
     return (
@@ -50,6 +51,8 @@ const Page = () => {
         </Box>
 
         <About />
+        <Education />
+        <OtherSkills />
     </Container>
     )
 }
