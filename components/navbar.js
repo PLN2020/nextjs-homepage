@@ -45,7 +45,31 @@ const Navbar = props => {
             zIndex={1}
             {...props}
         >
-            Navbar
+            <Container 
+                display="flex" 
+                p={2}
+                maxW="container.md"
+                wrap="wrap"
+                align="center"
+                justify="space-between"
+            >
+                <Flex align="center" mr={5}>
+                    <Heading as="h1" size="lg" letterSpacing={'tighter'}>
+                        <Logo />
+                    </Heading>
+                </Flex>
+
+                <Stack
+                    direction={{ base: 'column', md: 'row' }}
+                    display={{ base: 'none', md: 'flex' }}
+                    width={{ base: 'full', md: 'auto' }}
+                    alignItems="center"
+                    flexGrow={1}
+                    mt={{ base: 4, nmd: 0 }}
+                >
+
+                </Stack>
+            </Container>
         </Box>
     )
 }

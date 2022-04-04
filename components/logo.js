@@ -27,7 +27,7 @@ const Logo = () => {
                         fontWeight="bold"
                         ml={3}
                     >
-                        Patrick-Lam Nguyen
+                        &nbsp;&nbsp;Patrick-Lam Nguyen
                     </Text>
                 </LogoBox>
             </a>
