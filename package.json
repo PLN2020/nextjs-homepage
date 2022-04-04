@@ -12,6 +12,7 @@
   "author": "Patrick-Lam Nguyen<patricklamnguyen@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "@chakra-ui/icons": "^1.1.7",
     "@chakra-ui/react": "^1.8.7",
     "@emotion/react": "^11.8.2",
     "@emotion/style": "^0.8.0",

@@ -23,9 +23,9 @@ const Logo = () => {
                     <FontAwesomeIcon icon={faLaptopCode} size={{ fontSize:20 }} />
                     <Text
                         color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-                        fontFamily='M Plus Rounded 1c", sans-serif'
+                        fontFamily='Noto Sans", sans-serif'
                         fontWeight="bold"
-                        m1={3}
+                        ml={3}
                     >
                         Patrick-Lam Nguyen
                     </Text>
