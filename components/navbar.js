@@ -67,8 +67,26 @@ const Navbar = props => {
                     flexGrow={1}
                     mt={{ base: 4, nmd: 0 }}
                 >
+                    <LinkItem href="/projects" path={path}>
+                        Projects
+                    </LinkItem>
 
+                    <LinkItem href="/history" path={path}>
+                        History
+                    </LinkItem>
+
+                    <LinkItem href="/photography" path={path}>
+                        Photography
+                    </LinkItem>
                 </Stack>
+
+                <Box flex={1} align="right">
+                    <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
+                        <Menu>
+                            <MenuButton as={IconButton} icon={<HamburgerIcon />} variant="outline" aria-label="Options" />
+                        </Menu>
+                    </Box>
+                </Box>
             </Container>
         </Box>
     )
