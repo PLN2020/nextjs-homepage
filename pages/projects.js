@@ -16,7 +16,17 @@ const Projects = () => {
             </Heading>
 
             <SimpleGrid column={[1,1,2]} gap={6}>
-                <Section>
+                <Section delay={0.2}>
+                    <ProjectGridItem 
+                        id="braid"
+                        title="Braid"
+                        thumbnail={thumbBraid}
+                    >
+                        E-commerce MVP built with Ruby on Rails at Le Wagon.
+                    </ProjectGridItem>
+                </Section>
+
+                <Section delay={0.3}>
                     <ProjectGridItem 
                         id="braid"
                         title="Braid"
