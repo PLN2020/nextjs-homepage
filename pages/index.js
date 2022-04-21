@@ -22,7 +22,7 @@ const Page = () => {
                     mb={6} 
                     align="center"
                 >
-                    Hello, I am a full-stack developer based in Montreal.
+                    Hello, I am a full stack developer based in Montreal.
                 </Box>
 
                 <Box display={{md:'flex'}}>
