@@ -1,3 +1,4 @@
+import { ExternalLinkIcon } from "@chakra-ui/icons"
 import { Heading, Link } from "@chakra-ui/react"
 import Paragraph from "../../components/paragraph"
 import Section from "../../components/section"
@@ -17,7 +18,7 @@ const OtherSkills = () => {
                 Also familiar with editing softwares such as Lightroom CC and Photoshop.
                 <br/>
                 <Link href="https://www.flickr.com/gp/62652636@N04/434Lu5" target="_blank">
-                    Visit my flickr
+                    Visit my flickr&nbsp;<ExternalLinkIcon />
                 </Link>
             </Paragraph>
 
@@ -29,7 +30,7 @@ const OtherSkills = () => {
                 Acquired the certificate for the JLPT level N2 in 2017.
                 <br/>
                 <Link href="https://www.jlpt.jp/e/about/levelsummary.html" target="_blank">
-                    Learn more about the JLPT
+                    Learn more about the JLPT&nbsp;<ExternalLinkIcon />
                 </Link>
             </Paragraph>
         </Section>
