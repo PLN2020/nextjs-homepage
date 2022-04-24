@@ -2,7 +2,6 @@ import {
     Container,
     Heading,
     SimpleGrid,
-    Divider
 } from "@chakra-ui/layout"
 import { ProjectGridItem } from "../components/grid-item"
 import Section from '../components/section'

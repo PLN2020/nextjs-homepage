@@ -3,7 +3,7 @@ import {
     Box, 
     Heading, 
     Image, 
-    Link,
+    // Link,
     useColorModeValue 
 } from '@chakra-ui/react'
 import About from './partials/_about'

@@ -17,7 +17,7 @@ const About = () => {
             </Paragraph>
 
             <Box align="center" my={4}>
-                <NextLink href="/projects">
+                <NextLink href="/projects" passHref>
                     <Button rightIcon={<ChevronRightIcon />} colorScheme="purple">
                         Projects
                     </Button>

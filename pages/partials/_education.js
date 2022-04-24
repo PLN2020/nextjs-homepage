@@ -10,7 +10,7 @@ const Education = () => {
             </Heading>
             <BioSection>
                 <BioYear>2016</BioYear>
-                Completed a 4 month semester exchange program at the University of Kanazawa in 2016 as part of my bachelor's degree.
+                Completed a 4 month semester exchange program at the University of Kanazawa in 2016 as part of my bachelor&apos;s degree.
             </BioSection>
 
             <BioSection>
@@ -20,7 +20,7 @@ const Education = () => {
 
             <BioSection>
                 <BioYear>2021</BioYear>
-                Attended Le Wagon's 24 week part-time Web Development bootcamp as part of batch #517. Learned HTML, CSS, Bootstrap, Javascript, SQL, git, GitHub, Heroku and Ruby on Rails.
+                Attended Le Wagon&apos;s 24 week part-time Web Development bootcamp as part of batch #517. Learned HTML, CSS, Bootstrap, Javascript, SQL, git, GitHub, Heroku and Ruby on Rails.
             </BioSection>
         </Section>
     )
