@@ -10,6 +10,7 @@ import About from './partials/_about'
 import Education from './partials/_education'
 import OtherSkills from './partials/_other-skills'
 import Layout from '../components/layouts/article'
+import SocialLinks from './partials/_social-links'
 
 const Page = () => {
     return (
@@ -55,6 +56,7 @@ const Page = () => {
                 <About />
                 <Education />
                 <OtherSkills />
+                <SocialLinks />
             </Container>
         </Layout>
     )
