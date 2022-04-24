@@ -11,9 +11,9 @@ const About = () => {
                 About
             </Heading>
             <Paragraph>
-                New aspiring web developer based in Montreal looking for opportunities in the industry. 
-                Curious and driven to learn, and eager to put that knowledge to application.
-                Offline, I am passionate about photograghy and learning Japanese.
+                Aspiring web developer based in Montreal looking for opportunities in the industry. 
+                Curious and driven to learn, and eager to apply that knowledge.
+                In my spare time, I am passionate about photograghy and learning Japanese.
             </Paragraph>
 
             <Box align="center" my={4}>

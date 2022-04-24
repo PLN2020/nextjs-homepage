@@ -14,7 +14,7 @@ const Work = () => {
                     <Badge>2021</Badge>
                 </Title>
                 <Paragraph>
-                    E-commerce MVP built with a team of 3 in the context of a final project for my bootcamp at Le Wagon.
+                    E-commerce MVP built with a team of 3 as the final project for my bootcamp at Le Wagon.
                 </Paragraph>
                 <List ml={4} my={4}>
                     <ListItem>

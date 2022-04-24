@@ -16,7 +16,7 @@ const Projects = () => {
                     Projects
                 </Heading>
 
-                <SimpleGrid column={[1,1,2]} gap={6}>
+                <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section delay={0.2}>
                         <ProjectGridItem 
                             id="braid"

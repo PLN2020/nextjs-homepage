@@ -14,7 +14,7 @@ const OtherSkills = () => {
                 <Heading as="h3" variant="skill-title">
                     Photography
                 </Heading>
-                Picked up the skill since studying abroad in Japan and have been a hobbyist since. 
+                Picked this up as a hobby while studying abroad in Japan and have continued after I returned to Montreal. 
                 Also familiar with editing softwares such as Lightroom CC and Photoshop.
                 <br/>
                 <Link href="https://www.flickr.com/gp/62652636@N04/434Lu5" target="_blank">
