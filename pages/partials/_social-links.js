@@ -1,6 +1,7 @@
 import { Heading, List, ListItem, Link, Button, Icon } from "@chakra-ui/react"
 import Section from "../../components/section"
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import { ExternalLinkIcon } from "@chakra-ui/icons"
 
 const SocialLinks = () => {
     return (
@@ -12,15 +13,15 @@ const SocialLinks = () => {
                 <ListItem>
                     <Link href="https://github.com/PLN2020" target="_blank">
                         <Button variant="ghost" colorScheme="purple" leftIcon={<Icon as={IoLogoGithub} />}>
-                            Github
+                            Github&nbsp;<ExternalLinkIcon />
                         </Button>
                     </Link>
                 </ListItem>
 
                 <ListItem>
-                    <Link href="www.linkedin.com/in/plnguyen2021" target="_blank">
+                    <Link href="https://www.linkedin.com/in/plnguyen2021" target="_blank">
                         <Button variant="ghost" colorScheme="purple" leftIcon={<Icon as={IoLogoLinkedin} />}>
-                            LinkedIn
+                            LinkedIn&nbsp;<ExternalLinkIcon />
                         </Button>
                     </Link>
                 </ListItem>

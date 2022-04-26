@@ -30,7 +30,6 @@ const Page = () => {
                     display={{md:'flex'}}
                     flexWrap='wrap'
                     justifyContent='space-between'
-                    // alignItems='center'
                 >
                     {/* <Box>
                         <Heading as="h2" variant="page-title">
@@ -39,7 +38,7 @@ const Page = () => {
                         <p>Full Stack Web Developer</p>
                     </Box> */}
                     <Avatar />
-                    <Container maxW='60ch'><About /></Container>
+                    <Container maxW='50ch'><About /></Container>
                     <SocialLinks />
                 </Box>
 
