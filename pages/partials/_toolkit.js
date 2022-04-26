@@ -1,6 +1,8 @@
 import { Box, SimpleGrid, UnorderedList, ListItem, Heading, Button } from '@chakra-ui/react'
 import Section from "../../components/section"
 import { ToolkitData } from '../../data/toolkit-data'
+import NextLink from 'next/link'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 
 const Toolkit = () => {
 
@@ -68,6 +70,14 @@ const Toolkit = () => {
                     )
                 })}
             </SimpleGrid>
+
+            <Box align="center" my={4}>
+                <NextLink href="/projects" passHref>
+                    <Button rightIcon={<ChevronRightIcon />} colorScheme="purple">
+                        Projects
+                    </Button>
+                </NextLink>
+            </Box>
         </Section>
     )
 }

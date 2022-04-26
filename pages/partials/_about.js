@@ -1,8 +1,6 @@
 import Section from "../../components/section"
 import Paragraph from "../../components/paragraph"
-import { ChevronRightIcon } from '@chakra-ui/icons'
-import { Heading, Box, Button } from '@chakra-ui/react'
-import NextLink from 'next/link'
+import { Heading } from '@chakra-ui/react'
 
 const About = () => {
     return (
@@ -15,14 +13,6 @@ const About = () => {
                 Curious and driven to learn, and eager to apply that knowledge.
                 In my spare time, I am passionate about photograghy and learning Japanese.
             </Paragraph>
-
-            <Box align="center" my={4}>
-                <NextLink href="/projects" passHref>
-                    <Button rightIcon={<ChevronRightIcon />} colorScheme="purple">
-                        Projects
-                    </Button>
-                </NextLink>
-            </Box>
         </Section>
     )
 }
