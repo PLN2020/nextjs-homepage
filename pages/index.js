@@ -1,10 +1,8 @@
 import { 
     Container, 
     Box, 
-    Heading, 
-    Image, 
     // Link,
-    useColorModeValue, 
+    useColorModeValue,
 } from '@chakra-ui/react'
 import About from './partials/_about'
 import Education from './partials/_education'
@@ -12,6 +10,7 @@ import OtherSkills from './partials/_other-skills'
 import Layout from '../components/layouts/article'
 import SocialLinks from './partials/_social-links'
 import Avatar from '../components/avatar'
+import Toolkit from './partials/_toolkit'
 
 const Page = () => {
     return (
@@ -41,8 +40,11 @@ const Page = () => {
                     </Box> */}
                     <Avatar />
                     <Container maxW='60ch'><About /></Container>
-                    
                     <SocialLinks />
+                </Box>
+
+                <Box>
+                    <Toolkit />
                 </Box>
 
                 <Box

@@ -1,8 +1,7 @@
 import Link from 'next/link'
-import { Text, useColorModeValue } from '@chakra-ui/react'
+import { Text, useColorModeValue, Icon } from '@chakra-ui/react'
 import styled from '@emotion/styled'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+import { FaLaptopCode } from 'react-icons/fa';
 
 const LogoBox = styled.span`
     font-weight: bold;
@@ -19,7 +18,8 @@ const Logo = () => {
         <Link href="/">
             <a>
                 <LogoBox>
-                    <FontAwesomeIcon icon={faLaptopCode} size={{ fontSize:20 }} />
+                    {/* <FontAwesomeIcon icon={faLaptopCode} size={{ fontSize:20 }} /> */}
+                    <Icon as={FaLaptopCode} />
                     <Text
                         color={useColorModeValue('gray.800', 'whiteAlpha.900')}
                         fontFamily='Noto Sans", sans-serif'
