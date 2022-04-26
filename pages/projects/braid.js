@@ -8,7 +8,7 @@ import Paragraph from '../../components/paragraph'
 const Work = () => {
     return (
         <Layout title="Braid">
-            <Container>
+            <Container maxWidth='90ch'>
                 <Title>
                     Braid&nbsp;
                     <Badge>2021</Badge>

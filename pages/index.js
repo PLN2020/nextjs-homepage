@@ -15,7 +15,7 @@ import SocialLinks from './partials/_social-links'
 const Page = () => {
     return (
         <Layout>
-            <Container>
+            <Container maxWidth='90ch'>
                 <Box 
                     borderRadius="lg" 
                     bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} 

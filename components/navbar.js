@@ -26,6 +26,7 @@ const LinkItem = ({ href, path, children }) => {
                 p={2}
                 bg={active ? 'lightPurple' : undefined}
                 color={active ? '#202023' : inactiveColor}
+                borderRadius='lg'
                 // target={target}
                 // {...props}
             >
@@ -51,7 +52,8 @@ const Navbar = props => {
             <Container 
                 display="flex" 
                 p={2}
-                maxW="container.md"
+                // maxW="container.md"
+                maxW="90ch"
                 wrap="wrap"
                 align="center"
                 justify="space-between"

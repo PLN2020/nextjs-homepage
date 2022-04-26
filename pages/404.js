@@ -11,7 +11,7 @@ import { WarningIcon } from '@chakra-ui/icons'
 
 const NotFound = () => {
     return (
-        <Container>
+        <Container maxWidth='90ch' pt={14}>
             <Heading as="h1">
                 <WarningIcon w={8} h={8} color="red.500" />
                 &nbsp;404
