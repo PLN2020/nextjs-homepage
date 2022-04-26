@@ -4,13 +4,14 @@ import {
     Heading, 
     Image, 
     // Link,
-    useColorModeValue 
+    useColorModeValue, 
 } from '@chakra-ui/react'
 import About from './partials/_about'
 import Education from './partials/_education'
 import OtherSkills from './partials/_other-skills'
 import Layout from '../components/layouts/article'
 import SocialLinks from './partials/_social-links'
+import Avatar from '../components/avatar'
 
 const Page = () => {
     return (
@@ -26,37 +27,35 @@ const Page = () => {
                     Hello, I am a full stack developer based in Montreal.
                 </Box>
 
-                <Box display={{md:'flex'}}>
-                    <Box flexGrow={1}>
+                <Box 
+                    display={{md:'flex'}}
+                    flexWrap='wrap'
+                    justifyContent='space-between'
+                    // alignItems='center'
+                >
+                    {/* <Box>
                         <Heading as="h2" variant="page-title">
                             Patrick-Lam Nguyen
                         </Heading>
                         <p>Full Stack Web Developer</p>
-                    </Box>
-
-                    <Box 
-                        flexShrink={0} 
-                        mt={{ base: 4, md: 0 }}
-                        ml={{ md: 6 }}
-                        align="center"
-                    >
-                        <Image 
-                            borderColor="whiteAlpha.800" 
-                            borderWidth={2} 
-                            borderStyle="solid" 
-                            maxWidth="100px" 
-                            display="inline-block" 
-                            borderRadius="full"
-                            src="/images/patrick.jpg"
-                            alt="Profile Picture"
-                        />
-                    </Box>
+                    </Box> */}
+                    <Avatar />
+                    <Container maxW='60ch'><About /></Container>
+                    
+                    <SocialLinks />
                 </Box>
 
-                <About />
-                <Education />
-                <OtherSkills />
-                <SocialLinks />
+                <Box
+                    display={{md:'flex'}}
+                    flexWrap='wrap'
+                    justifyContent='space-between'
+                    alignItems='center'
+                >
+                    <Container maxW='40ch'><Education /></Container>
+                    <Container maxW='40ch'><OtherSkills /></Container>
+                </Box>
+                
+                
             </Container>
         </Layout>
     )
