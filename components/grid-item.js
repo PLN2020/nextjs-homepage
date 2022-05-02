@@ -31,6 +31,12 @@ export const ProjectGridItem = ({ children, id, title, thumbnail }) => (
     </Box>
 )
 
+export const PhotoGridItem = ({ caption, photo }) => (
+    <Box w="100%" align="center">
+        <Image src={photo} alt={caption} placeholder="blur" />
+    </Box>
+)
+
 export const GridItemStyle = () => (
     <Global 
         styles={`

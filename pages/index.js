@@ -1,8 +1,6 @@
 import { 
     Container, 
     Box, 
-    // Link,
-    useColorModeValue,
 } from '@chakra-ui/react'
 import About from './partials/_about'
 import Education from './partials/_education'
@@ -11,20 +9,13 @@ import Layout from '../components/layouts/article'
 import SocialLinks from './partials/_social-links'
 import Avatar from '../components/avatar'
 import Toolkit from './partials/_toolkit'
+import Intro from './partials/_intro'
 
 const Page = () => {
     return (
         <Layout>
-            <Container maxWidth='90ch'>
-                <Box 
-                    borderRadius="lg" 
-                    bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} 
-                    p={3} 
-                    mb={6} 
-                    align="center"
-                >
-                    Hello, I am a full stack developer based in Montreal.
-                </Box>
+            <Container maxW='90ch'>
+                <Intro />
 
                 <Box 
                     display={{md:'flex'}}

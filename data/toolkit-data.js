@@ -1,5 +1,5 @@
 import { DiRuby } from "react-icons/di"
-import { FaBootstrap, FaConfluence, FaCss3, FaDatabase, FaFigma, FaFileCode, FaGithub, FaHtml5, FaJira, FaJs, FaKeyboard, FaReact, FaSlack, FaTrello } from "react-icons/fa"
+import { FaBootstrap, FaConfluence, FaCss3, FaDatabase, FaFigma, FaFileCode, FaGithub, FaGoogle, FaHtml5, FaJira, FaJs, FaKeyboard, FaReact, FaSlack, FaTrello } from "react-icons/fa"
 import { SiFirebase, SiHeroku, SiMiro, SiNextdotjs, SiPostgresql, SiRubyonrails, SiYarn } from "react-icons/si"
 import { Icon } from '@chakra-ui/react'
 
@@ -95,6 +95,10 @@ export const ToolkitData=[
         {
             name: "Slack",
             icon: <Icon as={FaSlack} />
+        },
+        {
+            name: "Google",
+            icon: <Icon as={FaGoogle} />
         }
       ]
     },
