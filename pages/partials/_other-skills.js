@@ -2,6 +2,7 @@ import { ExternalLinkIcon } from "@chakra-ui/icons"
 import { Heading, Link } from "@chakra-ui/react"
 import Paragraph from "../../components/paragraph"
 import Section from "../../components/section"
+import NextLink from 'next/link'
 
 const OtherSkills = () => {
     return (
@@ -17,9 +18,9 @@ const OtherSkills = () => {
                 Picked this up as a hobby while studying abroad in Japan and have continued after I returned to Montreal. 
                 Also familiar with editing softwares such as Lightroom CC and Photoshop.
                 <br/>
-                <Link href="https://www.flickr.com/gp/62652636@N04/434Lu5" target="_blank">
-                    Visit my flickr&nbsp;<ExternalLinkIcon />
-                </Link>
+                <NextLink href="/photography" passHref>
+                    <Link>See more photos</Link>
+                </NextLink>
             </Paragraph>
 
             <Paragraph>

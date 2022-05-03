@@ -27,8 +27,12 @@ const LightBox = ({src, alt}) => {
                 _hover={{
                     transform: 'scale(1.1)'
                 }}
+                _active={{
+                    transform: 'scale(1.01) translateY(0.2rem)'
+                }}
                 w="100%"
                 h="100%"
+                placeholder="blur"
             />
 
             <Modal
@@ -40,7 +44,7 @@ const LightBox = ({src, alt}) => {
                 {overlay}
                 <ModalContent>
                     <ModalCloseButton />
-                    <Image src={src} alt={alt} />
+                    <Image src={src} alt={alt} placeholder="blur"/>
                 </ModalContent>
             </Modal>
         </>
