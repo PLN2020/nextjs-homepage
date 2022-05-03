@@ -22,16 +22,17 @@ const Photography = () => {
                             <Heading as="h3" variant="section-title" mb={4} ml={4}>
                                 {item.section}
                             </Heading>
-                            
+
                             <SimpleGrid
                                 columns={[1,1,3]}
-                                spacing={6}
+                                spacing="1.5ch"
                                 justifyItems="center" 
                             >   
                                 {item.photos.map((photo) => {
                                     return (
                                         <Box
-                                            boxSize='280px'
+                                            w="28ch"
+                                            h="28ch"
                                             boxShadow="0.3rem 0.4rem 0.4rem rgba(0,0,0,0.4)"
                                             overflow="hidden"
                                             border="2px solid white"
