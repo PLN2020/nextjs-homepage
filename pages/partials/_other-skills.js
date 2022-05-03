@@ -19,7 +19,7 @@ const OtherSkills = () => {
                 Also familiar with editing softwares such as Lightroom CC and Photoshop.
                 <br/>
                 <NextLink href="/photography" passHref>
-                    <Link>See more photos</Link>
+                    <Link>See my photos</Link>
                 </NextLink>
             </Paragraph>
 
