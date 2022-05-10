@@ -1,4 +1,5 @@
-import { Container, Badge, List, ListItem } from '@chakra-ui/react'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { Container, Badge, List, ListItem, Link } from '@chakra-ui/react'
 // import { ExternalLinkIcon } from '@chakra-ui/icons'
 import Layout from '../../components/layouts/article'
 import { Title, Meta, WorkImage } from '../../components/layouts/project'
@@ -19,7 +20,10 @@ const Work = () => {
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        No longer available
+                        Demo website no longer available, see&nbsp;
+                        <Link href="https://github.com/AntoineBoucherCodes/Braid" target="_blank">
+                            source code <ExternalLinkIcon />.
+                        </Link>
                     </ListItem>
 
                     <ListItem>
