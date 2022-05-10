@@ -23,7 +23,7 @@ const Page = () => {
                         display={{md:'flex'}}
                         flexWrap='wrap'
                         justifyContent='space-between'
-                        alignItems='center'
+                        alignItems='top'
                     >
                         {/* <Box>
                             <Heading as="h2" variant="page-title">

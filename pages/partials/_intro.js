@@ -9,7 +9,7 @@ const Intro = () => {
                 mb={6} 
                 align="center"
             >
-                Hello, name is Patrick-Lam Nguyen I am a full stack developer based in Montreal.
+                Hello, my name is Patrick-Lam Nguyen and I am a full stack developer.
             </Box>
     )
 }

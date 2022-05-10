@@ -5,7 +5,8 @@ import {
 } from "@chakra-ui/layout"
 import { ProjectGridItem } from "../components/grid-item"
 import Section from '../components/section'
-import thumbBraid from '../public/images/works/braid.png'
+import thumbBraid from '../public/images/works/braid.jpg'
+import thumbHomepage from '../public/images/works/homepage.jpg'
 import Layout from "../components/layouts/article"
 
 const Projects = () => {
@@ -19,11 +20,11 @@ const Projects = () => {
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section delay={0.2}>
                         <ProjectGridItem 
-                            id="braid"
-                            title="Braid"
-                            thumbnail={thumbBraid}
+                            id="homepage"
+                            title="This Website"
+                            thumbnail={thumbHomepage}
                         >
-                            E-commerce MVP built with Ruby on Rails at Le Wagon.
+                            Homepage built using NextJS and chakra-ui following Takuya Matsuyama&apos;s template.
                         </ProjectGridItem>
                     </Section>
 

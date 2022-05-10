@@ -20,7 +20,7 @@ const Education = () => {
 
             <BioSection>
                 <BioYear>2021</BioYear>
-                Attended Le Wagon&apos;s 24 week part-time Web Development bootcamp as part of batch #517. Learned HTML, CSS, Bootstrap, Javascript, SQL, git, GitHub, Heroku and Ruby on Rails.
+                Attended Le Wagon&apos;s 24 week part-time Web Development bootcamp as part of batch #517. Learned HTML, CSS, Bootstrap, Javascript, SQL, git, Heroku, Ruby on Rails, etc.
             </BioSection>
         </Section>
     )

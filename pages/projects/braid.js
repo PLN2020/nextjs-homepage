@@ -8,7 +8,7 @@ import Paragraph from '../../components/paragraph'
 const Work = () => {
     return (
         <Layout title="Braid">
-            <Container maxWidth='90ch'>
+            <Container maxWidth='container.lg'>
                 <Title>
                     Braid&nbsp;
                     <Badge>2021</Badge>
@@ -33,7 +33,7 @@ const Work = () => {
                     </ListItem>
                 </List>
 
-                <WorkImage src="/images/works/braid.png" alt="braid" />
+                <WorkImage src="/images/works/braid.jpg" alt="braid" />
             </Container>
         </Layout>
     )

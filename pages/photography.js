@@ -25,7 +25,7 @@ const Photography = () => {
 
                             <SimpleGrid
                                 columns={[1,1,3]}
-                                spacing="1.5ch"
+                                spacing={6}
                                 justifyItems="center" 
                             >   
                                 {item.photos.map((photo) => {
@@ -36,6 +36,7 @@ const Photography = () => {
                                             boxShadow="0.3rem 0.4rem 0.4rem rgba(0,0,0,0.4)"
                                             overflow="hidden"
                                             border="2px solid white"
+                                            mb="16px"
                                             key={item.photos.photo}
                                         >
                                             <LightBox
