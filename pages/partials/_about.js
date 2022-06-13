@@ -8,7 +8,7 @@ const About = () => {
                 About
             </Heading>
             <Paragraph>
-                Aspiring web developer based in Montreal looking for opportunities in the industry. 
+                Web developer based in Montreal looking for opportunities in the industry. 
                 Curious and driven to learn, and eager to apply that knowledge.
                 In my spare time, I am passionate about photograghy and learning Japanese.
             </Paragraph>

@@ -9,8 +9,8 @@ const Education = () => {
                 Education
             </Heading>
             <BioSection>
-                <BioYear>2016</BioYear>
-                Completed a 4 month semester exchange program at the University of Kanazawa in 2016 as part of my bachelor&apos;s degree.
+                <BioYear>2021</BioYear>
+                Attended Le Wagon&apos;s 24 week part-time Web Development bootcamp as part of batch #517. Learned HTML, CSS, Bootstrap, Javascript, SQL, git, Heroku, Ruby on Rails, etc.
             </BioSection>
 
             <BioSection>
@@ -19,8 +19,8 @@ const Education = () => {
             </BioSection>
 
             <BioSection>
-                <BioYear>2021</BioYear>
-                Attended Le Wagon&apos;s 24 week part-time Web Development bootcamp as part of batch #517. Learned HTML, CSS, Bootstrap, Javascript, SQL, git, Heroku, Ruby on Rails, etc.
+                <BioYear>2016</BioYear>
+                Completed a 4 month semester exchange program at the University of Kanazawa in 2016 as part of my bachelor&apos;s degree.
             </BioSection>
         </Section>
     )
